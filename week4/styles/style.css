@@ -1,0 +1,64 @@
+body {
+    background-color: pink; 
+    text-align: center;
+    
+}
+
+header {
+    color:white;
+    font-size: 3rem;
+    margin-bottom: 55px;
+
+}
+nav a:hover {
+    color:black;
+}
+
+img {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+p {
+    color:white; 
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    margin-bottom: 35px;
+    font-size: 1.2rem;
+}
+
+section {
+    display: block;
+    margin: 0 auto;
+    color:white; 
+}
+
+ ol {
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+  }
+  
+  li {
+    text-align: left;
+    font-size: 1.2rem;
+  }
+
+ section h3 {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    margin-top: 50px; /* Smaller top margin */
+    margin-bottom: 50px; /* Smaller bottom margin */
+    font-size: 1.5rem;
+ }
+
+ footer p {
+    color:black; 
+    margin-top: 5px; /* Smaller top margin */
+    margin-bottom: 2px; /* Smaller bottom margin */
+    
+}
