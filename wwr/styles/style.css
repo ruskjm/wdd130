@@ -29,12 +29,12 @@ main section {
     text-align: center;
 }
 
-#background {
-    height: 725px;
-}
-
 .logo {
     width: 80px;
+}
+
+#hero-img {
+    width:100%
 }
 
 .icon {
@@ -67,6 +67,7 @@ h4 {
 
 #background {
     background-color:#708D81;
+    height: 725px;
 }
 
 .msg  {
@@ -99,5 +100,3 @@ footer a:hover {
 footer p {
     font-size: 1.2em;
 } 
-
-
