@@ -1,0 +1,55 @@
+body {
+  margin: 0; 
+}
+
+#circles {
+  width: 100%; 
+  margin: 0;
+  height: 500px;
+  display: block;
+}
+
+#background {
+  background-color:grey;
+  position: absolute;
+  height: 350px;
+  width: 100%; 
+  padding: 0px;
+}
+
+img#circles,
+div#background {
+  box-sizing: border-box; 
+}
+
+#desk, 
+#graphic,  
+#person {
+  position: absolute;
+  height: auto; 
+  width: 15%;
+  border-radius: 50%;
+  border: 8px solid rgba(80, 80, 80, 3);
+}
+
+#desk {
+  left: 10%;
+  top: 20%
+}
+
+#graphic {
+  left: 50%;
+  transform: translateX(-50%);  
+  top: 20%
+}
+
+#person {
+  right: 10%;
+  top: 20% 
+}
+
+
+
+
+
+
